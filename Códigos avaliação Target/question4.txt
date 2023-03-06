@@ -1,0 +1,6 @@
+Question 4{
+
+    Os dois veículos estarão a mesma distância da cidade de Ribeirão Preto. Independente da passagem livre pelos pedágios e velocidade de 110km/h do carro, ao se encontrarem,
+    estarão a mesma distância da cidade de referência.
+
+}

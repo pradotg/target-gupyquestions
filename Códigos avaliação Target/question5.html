@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+</head>
+<body>
+    <main>
+        <script>
+
+            function inverterTexto(str) {
+                var strInvertida = "";
+                for (var i = str.length - 1; i >= 0; i--) {
+                    strInvertida += str[i];
+                }
+                return strInvertida;
+            }
+
+            var texto = prompt("Escreva uma palavra: ");
+            alert("Texto invertido: "+inverterTexto(texto));
+
+        </script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+</head>
+<body>
+    <main>
+
+        <script>
+            
+            function fibonacci(numero) {
+                let anterior = 0;
+                let atual = 1;
+                let proximo = 1;
+
+                while (proximo <= numero) {
+                    if (proximo == numero) {
+                        return `O número ${numero} pertence à sequência de Fibonacci.`;
+                    }
+                    anterior = atual;
+                    atual = proximo;
+                    proximo = anterior + atual;
+                }
+                return `O número ${numero} não pertence à sequência de Fibonacci.`;
+            }
+            
+            alert(fibonacci(prompt("Digite um número:")));
+
+        </script>
+
+    </main>
+</body>
+</html>
